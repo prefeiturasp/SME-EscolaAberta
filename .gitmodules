@@ -1,6 +1,0 @@
-[submodule "SME-EscolaAberta-Front"]
-	path = SME-EscolaAberta-Front
-	url = https://github.com/prefeiturasp/SME-EscolaAberta-Front
-[submodule "SME-PratoAberto-API"]
-	path = SME-PratoAberto-API
-	url = https://github.com/prefeiturasp/SME-PratoAberto-API.git
