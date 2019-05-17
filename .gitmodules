@@ -1,0 +1,6 @@
+[submodule "SME-EscolaAberta-Front"]
+	path = SME-EscolaAberta-Front
+	url = https://github.com/prefeiturasp/SME-EscolaAberta-Front.git
+[submodule "SME-EscolaAberta-API"]
+	path = SME-EscolaAberta-API
+	url = https://github.com/prefeiturasp/SME-EscolaAberta-API.git
