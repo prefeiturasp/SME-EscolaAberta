@@ -1,0 +1,75 @@
+version: '3'
+
+services:
+
+  # database containers, one for each db
+  db:
+    image: postgres:11.1
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    env_file:
+      - SME-EscolaAberta-API/.env/database
+#      - config/db/database
+    networks:
+      - database
+    ports:
+      - "5432:5432"
+
+  # web container, with django + gunicorn
+  djangoapp:
+    #image:
+
+    build: SME-EscolaAberta-API/
+    restart: always
+    environment:
+      - DJANGO_SETTINGS_MODULE
+    volumes:
+      - ./SME-EscolaAberta-API/:/opt/services/djangoapp/src
+      - static:/opt/services/djangoapp/static
+      - media:/opt/services/djangoapp/media
+    env_file:
+      - .env/database
+    networks:
+      - database
+      - nginx_network
+    depends_on:
+      - db
+
+  # reverse proxy container (nginx)
+  nginx:
+    image: nginx:1.13
+    ports:
+      - 80:80
+
+    volumes:
+      - ./SME-EscolaAberta-API/config/nginx/conf.d:/etc/nginx/conf.d
+      - static:/opt/services/djangoapp/static
+      - media:/opt/services/djangoapp/media
+      - front:/usr/share/nginx/html
+    networks:
+      - nginx_network
+    depends_on:
+      - djangoapp
+      - db
+#      - front
+
+  front:
+    build: SME-EscolaAberta-Front/
+    networks:
+      - nginx_network
+    volumes:
+      - front:/opt/services/front/src/build
+
+
+
+networks:
+  database:
+    driver: bridge
+  nginx_network:
+    driver: bridge
+
+volumes:
+  db_data:
+  static:
+  media:
+  front:
