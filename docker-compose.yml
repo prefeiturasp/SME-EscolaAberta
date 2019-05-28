@@ -51,7 +51,7 @@ services:
     depends_on:
       - djangoapp
       - db
-#      - front
+      - front
 
   front:
     build: SME-EscolaAberta-Front/
