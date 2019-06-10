@@ -33,7 +33,6 @@ services:
 
   # reverse proxy container (nginx)
   nginx:
-    nginx:
     image: nginx:1.15-alpine
     restart: unless-stopped
     volumes:
