@@ -1,7 +1,6 @@
-version: '3'
+version: "3"
 
 services:
-
   # database containers, one for each db
   db:
     image: postgres:11.1
@@ -9,7 +8,6 @@ services:
       - db_data:/var/lib/postgresql/data
     env_file:
       - SME-EscolaAberta-API/.env/database
-#      - config/db/database
     networks:
       - database
     ports:
@@ -17,8 +15,6 @@ services:
 
   # web container, with django + gunicorn
   djangoapp:
-    #image:
-
     build: SME-EscolaAberta-API/
     restart: always
     environment:
