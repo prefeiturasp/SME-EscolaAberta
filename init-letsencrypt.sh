@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(hom-escolaaberta.sme.prefeitura.sp.gov.br www.hom-escolaaberta.sme.prefeitura.sp.gov.br)
+domains=(hom-escolaaberta.sme.prefeitura.sp.gov.br)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="flavio.meira@amcom.com.br" # Adding a valid address is strongly recommended
