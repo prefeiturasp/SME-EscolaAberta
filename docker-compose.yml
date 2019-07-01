@@ -1,7 +1,6 @@
 version: "3"
 
 services:
-  # database containers, one for each db
   db:
     image: postgres:11.1
     volumes:
@@ -13,7 +12,6 @@ services:
     ports:
       - "5432:5432"
 
-  # web container, with django + gunicorn
   djangoapp:
     build: SME-EscolaAberta-API/
     restart: always
@@ -31,7 +29,6 @@ services:
     depends_on:
       - db
 
-  # reverse proxy container (nginx)
   nginx:
     image: nginx:1.15-alpine
     restart: unless-stopped
@@ -40,8 +37,8 @@ services:
       - static:/opt/services/djangoapp/static
       - media:/opt/services/djangoapp/media
       - front:/usr/share/nginx/html
-      - ./data/certbot/conf:/etc/letsencrypt
-      - ./data/certbot/www:/var/www/certbot
+      # - ./data/certbot/conf:/etc/letsencrypt
+      # - ./data/certbot/www:/var/www/certbot
     networks:
       - nginx_network
     depends_on:
@@ -50,16 +47,16 @@ services:
       - front
     ports:
       - "80:80"
-      - "443:443"
-    command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
+      # - "443:443"
+    # command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
 
-  certbot:
-    image: certbot/certbot
-    restart: unless-stopped
-    volumes:
-      - ./data/certbot/conf:/etc/letsencrypt
-      - ./data/certbot/www:/var/www/certbot
-    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
+  # certbot:
+  #   image: certbot/certbot
+  #   restart: unless-stopped
+  #   volumes:
+  #     - ./data/certbot/conf:/etc/letsencrypt
+  #     - ./data/certbot/www:/var/www/certbot
+  #   entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
 
   front:
     build: SME-EscolaAberta-Front/
