@@ -30,7 +30,7 @@ services:
       - db
 
   nginx:
-    image: nginx:alpine
+    image: nginx:1.15-alpine
     restart: unless-stopped
     volumes:
       - ./SME-EscolaAberta-API/config/nginx/conf.d:/etc/nginx/conf.d
@@ -51,7 +51,7 @@ services:
     networks:
       - nginx_network
     volumes:
-      - front:/app/build
+      - front:/opt/services/front/src/build
 
 networks:
   database:
