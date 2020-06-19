@@ -13,6 +13,9 @@ run:
 migrate:
 	$(COMMAND) "python web/manage.py migrate"
 
+makemigration:
+	$(COMMAND) "python web/manage.py makemigrations"
+
 check: checksafety checkstyle
 
 test:
