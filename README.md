@@ -29,7 +29,7 @@ Conteúdo
 | Scrum Master | Marcos Nastri | AMCOM |  
 | Design de Serviços | Cintia Ramos | AMCOM |  
 | Analista UX/UI | Jennifer Moreno | AMCOM |  
-| Analista Programador | Ollyver Otoboni | AMCOM|
+| Analista Programador | Giuseppe de O. Rosa | AMCOM|
 
 
 ## [](#sobre-o-produto)Sobre o Produto
@@ -150,4 +150,37 @@ Contribuições  são super bem  vindas! Se você  tem  vontade de construir o p
 
 ## [](#instalação-e-configuração)Instalação e Configuração
 
-Em andamento.
+
+## Requisitos
+
+Para contribuir com o desenvolvimento da Plataforma:
+
+### API:
+- Docker e Docker Compose
+### Front:
+- NPM
+
+## Clonar os repositórios
+`git clone --recurse-submodules -j8 https://github.com/prefeiturasp/SME-EscolaAberta.git`
+`cd SME-EscolaAberta`
+
+## Criação da pasta e arquivo com variaveis de ambiente
+`mkdir .env`
+`vim .env/database`
+
+## Inserir as seguintes variaveis
+`POSTGRES_HOST=db`
+`POSTGRES_PORT=5432`
+`POSTGRES_DB=escola_aberta`
+`POSTGRES_USER=postgres`
+`POSTGRES_PASSWORD=postgres`
+`DEBUG=True`
+
+## Build
+`docker-compose build` or `make build`.
+
+## Migrar o banco de dados
+`make migrate`.
+
+## Executar o projeto
+`docker-compose up`.
