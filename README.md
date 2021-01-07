@@ -70,7 +70,6 @@ Oferecer mecanismo de busca amigável para consulta aos dados da Rede Municipal 
     
 -   Apresentação (em tabelas) das principais estatísticas da Rede Municipal de Ensino, divididas em quatro grandes categorias temáticas (escolas, Profissionais, Vagas e Matrículas e Ambientes).
     
-
 ## [](#jornadas)Jornadas
 
 - O(a) usuário(a) acessa a homepage do Escola Aberta e digita o endereço para o qual quer buscar as escolas municipais mais próximas ou o nome da unidade específica que procura. Ele(a) então terá o retorno da busca em mapa interativo, que informa também o endereço exato e dados de contato de cada unidade. A partir daí, ao clicar em estatísticas, ao lado do nome de uma determinada escola, ele(a) terá acesso à página na qual é possível consultar (em tabelas e gráficos) os principais números da escola, divididos em quatro áreas: séries e estudantes, vagas e matrículas, ambientes e Idep (quando couber).
@@ -97,7 +96,7 @@ Números de cada escola apresentados em tabelas e gráficos, divididas em quatro
 
 Estatísticas agregadas da Rede Municipal de Ensino apresentadas em gráficos e divididas em quatro categorias: escolas, Profissionais, Vagas e Matrículas e Ambientes.
 
-## [](#como-surgiu)Como surgiu
+# [](#como-surgiu)Como surgiu
 
 **Diagnóstico:** os dados da Rede Municipal de Ensino estavam disponíveis com busca pouco amigável e apresentação de difícil compreensão no EOL gerenciamento: [http://eolgerenciamento.prefeitura.sp.gov.br/frmgerencial/NumerosCoordenadoria.aspx?Cod=000000 (http://eolgerenciamento.prefeitura.sp.gov.br/frmgerencial/NumerosCoordenadoria.aspx?Cod=000000)
 
@@ -111,7 +110,7 @@ Estatísticas agregadas da Rede Municipal de Ensino apresentadas em gráficos e 
 
 **Estatísticas:** [https://www.figma.com/file/Pxhwd1fPmKEgZM692v7xHjV1/Escola-Aberta_MPV1?node-id=652%3A1071](https://www.figma.com/file/Pxhwd1fPmKEgZM692v7xHjV1/Escola-Aberta_MPV1?node-id=652%3A1071)
 
-## [](#links-úteis)Links Úteis
+# [](#links-úteis)Links Úteis
 
 **Homologação:**
 
@@ -127,7 +126,7 @@ Estatísticas agregadas da Rede Municipal de Ensino apresentadas em gráficos e 
 |----------------------|-----------|
 | [Issues do Github](https://github.com/prefeiturasp/SME-PTRF/issues) | - Sugestão de novas funcionalidades<br> - Reportar bugs<br> - Discussões técnicas |
 
-## [](#como-contribuir)Como contribuir
+# [](#como-contribuir)Como contribuir
 
 Contribuições são **super bem vindas**! Se você tem vontade de construir o Escola Aberta  conosco, veja o nosso [guia de contribuição](./CONTRIBUTING.md) onde explicamos detalhadamente como trabalhamos e de que formas você pode nos ajudar a alcançar nossos objetivos. Lembrando que todos devem seguir nosso [código de conduta](./CODEOFCONDUCT.md).
 
@@ -148,9 +147,9 @@ Contribuições são **super bem vindas**! Se você tem vontade de construir o E
 
 Para contribuir com o desenvolvimento da Plataforma:
 
-### API:
+## API:
 - Docker e Docker Compose
-### Front:
+## Front:
 - NPM
 
 ## Clonar os repositórios
