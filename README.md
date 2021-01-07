@@ -123,7 +123,7 @@ Estatísticas agregadas da Rede Municipal de Ensino apresentadas em gráficos e 
 
 # [](#comunicação)Comunicação
 
-|| Canal de comunicação | Objetivos |
+| Canal de comunicação | Objetivos |
 |----------------------|-----------|
 | [Issues do Github](https://github.com/prefeiturasp/SME-PTRF/issues) | - Sugestão de novas funcionalidades<br> - Reportar bugs<br> - Discussões técnicas |
 
