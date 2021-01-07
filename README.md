@@ -1,56 +1,63 @@
-# SME-EscolaAberta
-O Ateliê do Software da SME tem o objetivo de garantir a manutenção e evolução dos sistemas  em  operação e construir  sistemas  novos sob demanda, possibilitado a partir do Edital nº 33/SME/2017. Baseados  em um modelo de contratação  baseado  pelos  movimentos  ágil e de Software Craftsmanship, trabalhamos com equipes  multidisciplinares para o desenvolvimento de produtos que beneficiam  toda a comunidade escolar (técnicos da SME e DREs, gestores, professores, alunos e famílias).
+# Estratégia de Transformação Digital e Governo Aberto na SME
 
+Como um governo pode atuar para garantir o bem comum de todos? Na SME, acreditamos que um dos meios para isso seja garantir transparência e prestação de contas e constante relação entre governo e sociedade para o desenvolvimento e implementação de políticas públicas. 
 
-**Visão do Produto**
+A Portaria SME nº 8.008, de 12 de novembro de 2018 oficializou a estratégia da Secretaria Municipal de Educação de SP para que nossas ações sejam pautadas nos princípios de Governo Aberto e para usarmos os valores e benefícios do mundo digital para melhorarmos nossos processos e serviços para os cidadãos. 
+Com isso, pretendemos: 
+- aumentar os níveis de transparência ativa e de abertura de dados, garantindo a proteção de dados pessoais; 
+- instituir metodologias ágeis e colaborativas como parte do processo de desenvolvimento e de evolução de sistemas administrativos e de serviços digitais; 
+- fortalecer o controle das políticas educacionais e da aplicação de recursos por parte da gestão e da sociedade; 
+- promover espaços e metodologias de colaboração entre governo, academia, sociedade civil e setor privado. 
 
-Para a **qualquer cidadã(o)** interessada(o) que queira consultar de forma intuitiva e obter em linguagem simples os dados da Rede Municipal de Educação (RME) de São Paulo o **Escola Aberta** é uma **aplicação web responsiva** que **permite a busca pelas escolas municipais a partir de seu nome ou de um dado endereço e apresenta de forma didática e atraente suas principais estatísticas** (como séries, períodos, quantidade de turmas e de estudantes, vagas oferecidas e atendidas, quantos e quais profissionais trabalham lá, que ambientes a escola possui e como está a avaliação dela no Índice de Desenvolvimento da Educação), **além de apresentar os dados gerais agregados da RME, com algumas opções de recorte** (como por Diretoria Regional de Educação). Ao contrário do **Portal de Dados Abertos ou do EOL Gerenciamento**,  o Escola Aberta **não exige um conhecimento prévio aprofundado em bases de dados ou na estruturação da RME**.
+O [Ateliê do Software](http://forum.govit.prefeitura.sp.gov.br/uploads/default/original/1X/c88a4715eb3f9fc3ceb882c1f6afe9e308805a17.pdf) é uma das ferramentas para operacionalização. Baseado em um modelo de contratação inspirado pelos movimentos ágil e de Software Craftsmanship, trabalhamos com equipes multidisciplinares para o desenvolvimento de produtos que beneficiam toda a comunidade escolar (técnicos da SME e DREs, gestores, professores, alunos e famílias) e concretizam os objetivos da Estratégia de Transformação Digital e Governo Aberto “Pátio Digital”.
 
-Conteúdo
-1. [Sobre o Time](#sobre-o-time)  
-2. [Sobre o Produto](#sobre-o-produto)  
-3. [Como Surgiu](#como-surgiu)  
-4. [Links Úteis](#links-úteis)  
-5. [Comunicação](#comunicação)  
-6. [Como Contribuir](#como-contribuir)  
-7. [Repositórios](#repositórios)  
-8. [Instalação e Configuração](#instalação-e-configuração)
+# Conteúdo
+1. [Sobre o Produto](#sobre-o-produto) 
+2. [Como Surgiu](#como-surgiu)  
+3. [Links Úteis](#links-úteis)  
+4. [Comunicação](#comunicação)  
+5. [Como Contribuir](#como-contribuir)  
+6. [Repositórios](#repositórios)  
+7. [Instalação e Configuração](#instalação-e-configuração)
 
- 
-## [](#sobre-o-time)Sobre o Time
+# [](#sobre-o-produto)Sobre o Produto
 
+## Visão do Produto
 
+Para a **qualquer cidadã(o) interessada(o) que queira consultar de forma intuitiva e obter em linguagem simples os dados da Rede Municipal de Educação (RME) de São Paulo**
 
-| Papel | Titular | Suplente  
-|--|--|--|  
-| Product Owner | Thais Brianezi| Gabinete de SME |  
-| Agente de Governança | Filipe Carvalho | COTIC |  
-| Gerente de Projeto | Aline Freitas | AMCOM |  
-| Scrum Master | Marcos Nastri | AMCOM |  
-| Design de Serviços | Cintia Ramos | AMCOM |  
-| Analista UX/UI | Jennifer Moreno | AMCOM |  
-| Analista Programador | Giuseppe de O. Rosa | AMCOM|
+O **Escola Aberta** 
 
+É uma **aplicação web responsiva** 
 
-## [](#sobre-o-produto)Sobre o Produto
+Que **permite a busca pelas escolas municipais a partir de seu nome ou de um dado endereço e apresenta de forma didática e atraente suas principais estatísticas (como séries, períodos, quantidade de turmas e de estudantes, vagas oferecidas e atendidas, quantos e quais profissionais trabalham lá, que ambientes a escola possui e como está a avaliação dela no Índice de Desenvolvimento da Educação), além de apresentar os dados gerais agregados da RME, com algumas opções de recorte (como por Diretoria Regional de Educação)**
 
-### [](#objetivos-de-negócio)Objetivos de negócio
+Ao contrário do **Portal de Dados Abertos ou do EOL Gerenciamento,**
+
+O Escola Aberta **não exige um conhecimento prévio aprofundado em bases de dados ou na estruturação da RME**
+
+## Objetivos de negócio
 
 Oferecer mecanismo de busca amigável para consulta aos dados da Rede Municipal de Educação já disponíveis no Portal Dados Abertos, com retorno das informações em linguagem simples (incluindo gráficos e mapas interativos).
 
-### [](#personas)Personas
+## Personas
 
-Cidadã(o) em geral: qualquer pessoa interessada em consultar de forma rápida e simples as escolas municipais mais próximas de sua casa ou de um dado endereço e ter acesso em linguagem simples às estatísticas não apenas dessas unidades, mas de toda a Rede Municipal de Ensino de São Paulo.
+**Quem:** cidadã(o) em geral
+**Características principais e necessidades:** qualquer pessoa interessada em consultar de forma rápida e simples as escolas municipais mais próximas de sua casa ou de um dado endereço e ter acesso em linguagem simples às estatísticas não apenas dessas unidades, mas de toda a Rede Municipal de Ensino de São Paulo.
 
-Estudantes e famílias: público já engajado na Rede Municipal de Ensino, que busca o Escola Aberta para ter dados gerais de sua escola e, também, uma visão mais ampla da Rede Municipal de Ensino – e, assim, conseguir participar mais ativamente de sua gestão democrática.
+**Quem:** estudantes e famílias
+**Características principais e necessidades:** público já engajado na Rede Municipal de Ensino, que busca o Escola Aberta para ter dados gerais de sua escola e, também, uma visão mais ampla da Rede Municipal de Ensino – e, assim, conseguir participar mais ativamente de sua gestão democrática.
 
-Servidores: buscam informações e dados gerenciais apresentados de forma simples e atraente a respeito  da  Rede  Municipal  de  Ensino  de  São  Paulo,  para  subsidiar  seus  trabalhos  de  análise  e  planejamento  da  política  educacional  nas  diferentes  áreas  e  escalas  (como  Educação  de  Jovens  e  Adultos  –  EJA  ou  determinada  Diretoria  Regional  de  Educação  -  DRE).
+**Quem:** servidores
+**Características principais e necessidades:** buscam informações e dados gerenciais apresentados de forma simples e atraente a respeito  da  Rede  Municipal  de  Ensino  de  São  Paulo,  para  subsidiar  seus  trabalhos  de  análise  e  planejamento  da  política  educacional  nas  diferentes  áreas  e  escalas  (como  Educação  de  Jovens  e  Adultos  –  EJA  ou  determinada  Diretoria  Regional  de  Educação  -  DRE).
 
-Jornalistas e demais comunicadores: consomem informações e dados sobre a Rede Municipal de Educação, para levantar pautas e subsidiar suas matérias.
+**Quem:** jornalistas e demais comunicadores
+**Características principais e necessidades:** consomem informações e dados sobre a Rede Municipal de Educação, para levantar pautas e subsidiar suas matérias.
 
-Pesquisadores consomem informações e dados sobre a Rede Municipal de Educação, como subsídio para os estudos e análise da política educacional da Prefeitura de São Paulo, que contribuem com o seu constante aprimoramento.
+**Quem:** pesquisadores 
+**Características principais e necessidades:** consomem informações e dados sobre a Rede Municipal de Educação, como subsídio para os estudos e análise da política educacional da Prefeitura de São Paulo, que contribuem com o seu constante aprimoramento.
 
-### [](#funcionalidades)Funcionalidades
+## [](#funcionalidades)Funcionalidades
 
 -   Busca pelas escolas municipais mais próximas de um dado endereço (logradouro).
     
@@ -64,15 +71,15 @@ Pesquisadores consomem informações e dados sobre a Rede Municipal de Educaçã
 -   Apresentação (em tabelas) das principais estatísticas da Rede Municipal de Ensino, divididas em quatro grandes categorias temáticas (escolas, Profissionais, Vagas e Matrículas e Ambientes).
     
 
-### [](#jornadas)Jornadas
+## [](#jornadas)Jornadas
 
-O(a) usuário(a) acessa a homepage do Escola Aberta e digita o endereço para o qual quer buscar as escolas municipais mais próximas ou o nome da unidade específica que procura. Ele(a) então terá o retorno da busca em mapa interativo, que informa também o endereço exato e dados de contato de cada unidade. A partir daí, ao clicar em estatísticas, ao lado do nome de uma determinada escola, ele(a) terá acesso à página na qual é possível consultar (em tabelas e gráficos) os principais números da escola, divididos em quatro áreas: séries e estudantes, vagas e matrículas, ambientes e Idep (quando couber).
+- O(a) usuário(a) acessa a homepage do Escola Aberta e digita o endereço para o qual quer buscar as escolas municipais mais próximas ou o nome da unidade específica que procura. Ele(a) então terá o retorno da busca em mapa interativo, que informa também o endereço exato e dados de contato de cada unidade. A partir daí, ao clicar em estatísticas, ao lado do nome de uma determinada escola, ele(a) terá acesso à página na qual é possível consultar (em tabelas e gráficos) os principais números da escola, divididos em quatro áreas: séries e estudantes, vagas e matrículas, ambientes e Idep (quando couber).
 
-O(a) usuário(a) acessa a homepage do Escola Aberta e seleciona no menu superior o item “Busca por Filtro”. Ele(a) então seleciona o Distrito e/ou Subprefeitura e/ou Diretoria Regional de Ensino e/ou tipo de unidade escolar que deseja consultar. Ele(a) então terá o retorno da busca em mapa interativo, que informa também o endereço exato e dados de contato de cada unidade. A partir daí, ao clicar em estatísticas, ao lado do nome de uma determinada escola, ele(a) terá acesso à página na qual é possível consultar (em tabelas e gráficos) os principais números da escola, divididos em quatro áreas: séries e estudantes, vagas e matrículas, ambientes e Idep (quando couber).
+- O(a) usuário(a) acessa a homepage do Escola Aberta e seleciona no menu superior o item “Busca por Filtro”. Ele(a) então seleciona o Distrito e/ou Subprefeitura e/ou Diretoria Regional de Ensino e/ou tipo de unidade escolar que deseja consultar. Ele(a) então terá o retorno da busca em mapa interativo, que informa também o endereço exato e dados de contato de cada unidade. A partir daí, ao clicar em estatísticas, ao lado do nome de uma determinada escola, ele(a) terá acesso à página na qual é possível consultar (em tabelas e gráficos) os principais números da escola, divididos em quatro áreas: séries e estudantes, vagas e matrículas, ambientes e Idep (quando couber).
 
-O(a) usuário(a) acessa a homepage do Escola Aberta e seleciona no menu superior o item “Conheça a Rede”. Ele(a) então terá acesso à página na qual é possível consultar as principais estatísticas da Rede Municipal de Ensino, divididas em quatro grandes categorias temáticas (escolas, Profissionais, Vagas e Matrículas e Ambientes).
+- O(a) usuário(a) acessa a homepage do Escola Aberta e seleciona no menu superior o item “Conheça a Rede”. Ele(a) então terá acesso à página na qual é possível consultar as principais estatísticas da Rede Municipal de Ensino, divididas em quatro grandes categorias temáticas (escolas, Profissionais, Vagas e Matrículas e Ambientes).
 
-### [](#roadmap)RoadMap
+## [](#roadmap)RoadMap
 
 **Release 1**
 
@@ -92,50 +99,37 @@ Estatísticas agregadas da Rede Municipal de Ensino apresentadas em gráficos e 
 
 ## [](#como-surgiu)Como surgiu
 
-Diagnóstico de que os dados da Rede Municipal de Ensino estavam disponíveis com busca pouco amigável e apresentação de difícil compreensão no EOL gerenciamento:
+**Diagnóstico:** os dados da Rede Municipal de Ensino estavam disponíveis com busca pouco amigável e apresentação de difícil compreensão no EOL gerenciamento: [http://eolgerenciamento.prefeitura.sp.gov.br/frmgerencial/NumerosCoordenadoria.aspx?Cod=000000 (http://eolgerenciamento.prefeitura.sp.gov.br/frmgerencial/NumerosCoordenadoria.aspx?Cod=000000)
 
-[http://eolgerenciamento.prefeitura.sp.gov.br/frmgerencial/NumerosCoordenadoria.aspx?Cod=000000](http://eolgerenciamento.prefeitura.sp.gov.br/frmgerencial/NumerosCoordenadoria.aspx?Cod=000000)
+**Benchmark:**[https://www.qedu.org.br/escola/192016-emef-luiz-david-sobrinho-prof/sobre](https://www.qedu.org.br/escola/192016-emef-luiz-david-sobrinho-prof/sobre)
 
-Benchmark:
+## Protótipos:
 
-[https://www.qedu.org.br/escola/192016-emef-luiz-david-sobrinho-prof/sobre](https://www.qedu.org.br/escola/192016-emef-luiz-david-sobrinho-prof/sobre)
+**Home page:** [https://www.figma.com/file/Pxhwd1fPmKEgZM692v7xHjV1/Escola-Aberta_MPV1?node-id=357%3A0](https://www.figma.com/file/Pxhwd1fPmKEgZM692v7xHjV1/Escola-Aberta_MPV1?node-id=357%3A0)
 
-Protótipos:
+**Resultado da busca:** [https://www.figma.com/file/Pxhwd1fPmKEgZM692v7xHjV1/Escola-Aberta_MPV1?node-id=458%3A2](https://www.figma.com/file/Pxhwd1fPmKEgZM692v7xHjV1/Escola-Aberta_MPV1?node-id=458%3A2)
 
-Home page: [https://www.figma.com/file/Pxhwd1fPmKEgZM692v7xHjV1/Escola-Aberta_MPV1?node-id=357%3A0](https://www.figma.com/file/Pxhwd1fPmKEgZM692v7xHjV1/Escola-Aberta_MPV1?node-id=357%3A0)
-
-Resultado da busca: [https://www.figma.com/file/Pxhwd1fPmKEgZM692v7xHjV1/Escola-Aberta_MPV1?node-id=458%3A2](https://www.figma.com/file/Pxhwd1fPmKEgZM692v7xHjV1/Escola-Aberta_MPV1?node-id=458%3A2)
-
-Estatísticas: [https://www.figma.com/file/Pxhwd1fPmKEgZM692v7xHjV1/Escola-Aberta_MPV1?node-id=652%3A1071](https://www.figma.com/file/Pxhwd1fPmKEgZM692v7xHjV1/Escola-Aberta_MPV1?node-id=652%3A1071)
+**Estatísticas:** [https://www.figma.com/file/Pxhwd1fPmKEgZM692v7xHjV1/Escola-Aberta_MPV1?node-id=652%3A1071](https://www.figma.com/file/Pxhwd1fPmKEgZM692v7xHjV1/Escola-Aberta_MPV1?node-id=652%3A1071)
 
 ## [](#links-úteis)Links Úteis
 
-Homologação:
+**Homologação:**
 
 [https://hom-escolaaberta.sme.prefeitura.sp.gov.br/escolaaberta/](https://hom-escolaaberta.sme.prefeitura.sp.gov.br/escolaaberta/)
 
-Produção:
+**Produção:**
 
 [http://educacao.sme.prefeitura.sp.gov.br/escolaaberta](http://educacao.sme.prefeitura.sp.gov.br/escolaaberta)
 
-## [](#comunicação)Comunicação
+# [](#comunicação)Comunicação
 
-Canal de comunicação
-
-[Telegram](https://t.me/joinchat/Mnf4ExIFENz0GshrYKrl7A)
-
--   Alinhamento sobre produto
-    
--   Comunicar novidades sobre os produtos
-    
--   Movimentar a comunidade
-
--   Falar tópicos que não demandem discussões profundas
-    
+|| Canal de comunicação | Objetivos |
+|----------------------|-----------|
+| [Issues do Github](https://github.com/prefeiturasp/SME-PTRF/issues) | - Sugestão de novas funcionalidades<br> - Reportar bugs<br> - Discussões técnicas |
 
 ## [](#como-contribuir)Como contribuir
 
-Contribuições  são super bem  vindas! Se você  tem  vontade de construir o portal da secretaria municipal e educação  conosco, veja o nosso  guia de contribuição  onde  explicamos  detalhadamente  como  trabalhamos e de que formas  você  pode  nos  ajudar  a  alcançar  nossos  objetivos. Lembrando que todos  devem  seguir  nosso  código de conduta.
+Contribuições são **super bem vindas**! Se você tem vontade de construir o Escola Aberta  conosco, veja o nosso [guia de contribuição](./CONTRIBUTING.md) onde explicamos detalhadamente como trabalhamos e de que formas você pode nos ajudar a alcançar nossos objetivos. Lembrando que todos devem seguir nosso [código de conduta](./CODEOFCONDUCT.md).
 
 ## [](#repositorios)Repositórios
 
@@ -149,7 +143,6 @@ Contribuições  são super bem  vindas! Se você  tem  vontade de construir o p
 [https://github.com/prefeiturasp/SME-EscolaAberta-Front](https://github.com/prefeiturasp/SME-EscolaAberta-Front)
 
 ## [](#instalação-e-configuração)Instalação e Configuração
-
 
 ## Requisitos
 
