@@ -42,19 +42,24 @@ Oferecer mecanismo de busca amigável para consulta aos dados da Rede Municipal 
 
 ## Personas
 
-- **Quem:** cidadã(o) em geral
+### Cidadã(o) em geral
+
 - **Características principais e necessidades:** qualquer pessoa interessada em consultar de forma rápida e simples as escolas municipais mais próximas de sua casa ou de um dado endereço e ter acesso em linguagem simples às estatísticas não apenas dessas unidades, mas de toda a Rede Municipal de Ensino de São Paulo
 
-- **Quem:** estudantes e famílias
+### Estudantes e famílias
+
 - **Características principais e necessidades:** público já engajado na Rede Municipal de Ensino, que busca o Escola Aberta para ter dados gerais de sua escola e, também, uma visão mais ampla da Rede Municipal de Ensino – e, assim, conseguir participar mais ativamente de sua gestão democrática
 
-- **Quem:** servidores
+### Servidores
+
 - **Características principais e necessidades:** buscam informações e dados gerenciais apresentados de forma simples e atraente a respeito  da  Rede  Municipal  de  Ensino  de  São  Paulo,  para  subsidiar  seus  trabalhos  de  análise  e  planejamento  da  política  educacional  nas  diferentes  áreas  e  escalas  (como  Educação  de  Jovens  e  Adultos  –  EJA  ou  determinada  Diretoria  Regional  de  Educação  -  DRE)
 
-- **Quem:** jornalistas e demais comunicadores
+### Jornalistas e demais comunicadores
+
 - **Características principais e necessidades:** consomem informações e dados sobre a Rede Municipal de Educação, para levantar pautas e subsidiar suas matérias
 
-- **Quem:** pesquisadores 
+### Pesquisadores 
+
 - **Características principais e necessidades:** consomem informações e dados sobre a Rede Municipal de Educação, como subsídio para os estudos e análise da política educacional da Prefeitura de São Paulo, que contribuem com o seu constante aprimoramento
 
 ## Funcionalidades
